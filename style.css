@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+html{
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+.hero {
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden; 
+}
+
+.btn .btn-warning {
+    --bs-btn-color: #634c31;
+    --bs-btn-bg: rgb(202, 185, 176);
+    --bs-btn-border-color: rgb(202, 185, 176);
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #8d7a6d;
+    --bs-btn-hover-border-color: #8d7a6d;
+    --bs-btn-focus-shadow-rgb: 217, 164, 6;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #8d7a6d;
+    --bs-btn-active-border-color: #8d7a6d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #8d7a6d;
+    --bs-btn-disabled-border-color: #8d7a6d;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+}
+h1{
+    margin: 1.5%;
+}
+p{
+    margin: 1%;
+    
+    font-size: 18px;
+}
+.container{
+    text-align: center;
+    font-family: 'spartan', sans-serif;
+}
+#product1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#product1 .product{
+    width: 19%;
+    min-width: 250px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    padding-top: 10px;
+    border-radius: 4%;
+}
+#product1 .product img{
+    width: 100%;
+    border-radius: 2%;
+}
+#product1 .product h3{
+    text-align: start;
+    padding: 0px 5px;
+}
+#product1 .product p{
+    text-align: start;
+    padding: 0px 5px;
+    color: rgb(164, 164, 164);
+    padding: 0%;
+    margin: 0%;
+}
+
+#product1 .product:hover{
+    box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.06);
+}
