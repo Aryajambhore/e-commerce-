@@ -60,7 +60,7 @@ p{
 }
 #product1 .product{
     width: 19%;
-    min-width: 210px;
+    min-width: 166px;
     cursor: pointer;
     transition: 0.2s ease;
     padding-top: 10px;
