@@ -63,8 +63,8 @@ p{
     padding-right: 15px;
 }
 #product1 .product{
-    width: 19%;
-    min-width: 164px;
+    width: 18.4%;
+    min-width: 152px;
     cursor: pointer;
     transition: 0.2s ease;
     padding-top: 10px;
