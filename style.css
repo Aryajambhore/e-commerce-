@@ -37,6 +37,10 @@ html{
     width: 70%;
     overflow: hidden;
 }
+main{
+    margin: 0;
+    padding: 0;
+}
 h1{
     margin: 1.5%;
 }
@@ -60,7 +64,7 @@ p{
 }
 #product1 .product{
     width: 19%;
-    min-width: 166px;
+    min-width: 164px;
     cursor: pointer;
     transition: 0.2s ease;
     padding-top: 10px;
