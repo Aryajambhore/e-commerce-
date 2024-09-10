@@ -46,6 +46,7 @@ p{
     font-size: 18px;
 }
 .container{
+    margin-top: 10px;
     paddiing-top: 10px;
     text-align: center;
     font-family: 'spartan', sans-serif;
